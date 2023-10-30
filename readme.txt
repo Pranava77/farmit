@@ -1,1 +1,2 @@
-# Farm it is a website landing page  
+# Farmit is a website landing page.
+https://farmit.netlify.app/
