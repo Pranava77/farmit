@@ -1,0 +1,492 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #111;
+    color: wheat;
+    border-bottom: 9px solid lightgreen;
+     align-items: center;
+    justify-content: space-between; 
+    padding: 0 4vw;
+}
+
+.navp2{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+.nav h2{
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: lightgreen;
+} 
+
+.nav h4{
+    font-size: 1vw;
+    font-weight: 900;
+} 
+
+.nav i{
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+}
+
+.nav button{
+    padding: 0.5vw 1.2vw;
+    border: 1vw solid #111;
+    border-radius: 20%;
+    font-size: 1vw;
+    font-weight: 800;
+    color: black;
+    background-color: lightgreen;
+}
+
+
+/* content */
+
+.content{
+    height: 100%;
+    width: 100%;    
+    background-color: #333;
+    color: wheat;
+    position: relative;
+    display: flex;
+    border-bottom: 9px solid lightgreen;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: #111;
+    padding: 5vw 4vw ;
+}
+
+
+.left h1{
+    font-size: 3.5vw;
+    line-height: 3.7vw;
+}
+
+.left h1 span{
+    color: lightgreen;
+}
+
+.left p{
+    margin-top: 1.4vw;
+    font-size: 1.2vw;
+}
+
+.left button{
+    margin-top: 2vw;
+    padding: 1.2vw 2.3vw;
+    border: 1vw solid black;
+    border-radius: 10%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    color: black;
+    background-color: lightgreen;
+}
+
+.right  {
+    height: 100%;
+    width: 50%;
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* content1 */
+
+.content1{
+    height: 90%;
+    width: 100%;    
+    background-color: #111;
+    position: relative;
+    display: flex;
+    border-bottom: 9px solid lightgreen;
+
+}
+
+
+.right1{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    padding: 5vw 4vw ;
+}
+
+
+.right1 h1{
+    font-size: 3.5vw;
+    line-height: 3.7vw;
+    color: wheat;
+}
+
+.right1 h1 span{
+    color: lightgreen;
+}
+
+.right1 p{
+    margin-top: 1.4vw;
+    font-size: 1.2vw;
+    color: wheat
+}
+
+.right1 button{
+    margin-top: 2vw;
+    padding: 1.2vw 2.3vw;
+    border: 1vw solid black;
+    border-radius: 10%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    color: black;
+    background-color: lightgreen;
+}
+
+
+.left1  {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left1 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* content2 */
+
+.content2{
+    height: 90% ;
+    width: 100%;    
+    background-color: #333;
+    color: wheat;
+    position: relative;
+    display: flex;
+    border-bottom: 9px solid lightgreen;
+}
+
+.left2{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    padding: 5vw 4vw ;
+}
+
+
+.left2 h1{
+    font-size: 3.5vw;
+    line-height: 3.7vw;
+}
+
+.left2 h1 span{
+    color: lightgreen;
+}
+
+.left2 p{
+    margin-top: 2vw;
+    font-size: 1.7vw;
+}
+
+.left2 button{
+    margin-top: 2vw;
+    padding: 1.2vw 2.3vw;
+    border: 1vw solid black;
+    border-radius: 10%;
+    font-size: 1.5vw;
+    font-weight: 900;
+    color: black;
+    background-color: lightgreen;
+}
+
+.right2  {
+    height: 100%;
+    width: 50%;
+}
+
+.right2 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.content3 {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align content to the top */
+    align-items: center; /* Center horizontally */
+    position: relative;
+    border-bottom: 9px solid lightgreen;
+}
+
+.content3 h1 {
+    color: wheat;
+    display: flex;
+    font-size: 24px; /* Adjust font size as needed */
+
+}
+
+ 
+.tbox{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 9px solid lightgreen;
+
+    
+}
+
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border: 5px solid lightgreen;
+    border-radius: 10px;
+    border-bottom: 9px solid lightgreen ;
+    
+}
+
+.box1 img{
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: 100%; /* Ensure the image takes up the full height of the container */
+    object-fit: cover;
+}
+
+
+.box1 a{
+    font-size: 2vw;
+}
+
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border: 5px solid lightgreen;
+    border-radius: 10px;
+}
+
+
+.box2 img {
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: 100%; /* Ensure the image takes up the full height of the container */
+    object-fit: cover;
+}
+
+.box2 a{
+    font-size: 2vw;
+    justify-content: center;
+}
+
+
+
+/* responsive */
+
+@media (max-width: 600px) {
+    .nav{
+        padding: 0 6vw;
+        height: 60px;
+        border-bottom: 6px solid lightgreen;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    .nav button{
+        display: none;
+    }
+    .nav i{
+        display: initial;
+        font-size: 4.5vh;
+    }
+  
+
+
+
+    /* content */
+    .content{
+        height: calc(100% - 60px);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #111;
+        border-bottom: 4px solid lightgreen;
+    }
+    .left{
+        width: 100%;
+        height:70%;
+    }
+
+    .left h1{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+
+    .left p{
+        font-size: 4.8vw;
+        line-height: 6vw;
+    }
+
+    .left button{
+        font-size: 3vw;
+        font-weight: 600;
+        padding: 1.2vw 2.3vw;
+
+    }
+
+    .right{
+        width: 100%;
+        height:40%;
+    }
+
+
+
+    /* content1 */
+
+
+    .content1{
+        height: calc(100% - 60px);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right1{
+        width: 100%;
+        height:50%;
+    }
+
+    .right1 h1{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+
+    .right1 p{
+        font-size: 4.8vw;
+        line-height: 6vw;
+    }
+
+    .right1 button{
+        font-size: 3vw;
+        font-weight: 600;
+        padding: 1.2vw 2.3vw;
+    }
+
+    .left1{
+        width: 100%;
+        height:40%;
+    }
+
+
+
+/* content2 */
+
+    .content2{
+        height: calc(100% - 60px);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #111;
+        border-bottom: 4px solid black;
+    }
+    
+    .left2{
+        width: 100%;
+        height:50%;
+    }
+
+    .left2 h1{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+
+    .left2 p{
+        font-size: 4.8vw;
+        line-height: 6vw;
+    }
+
+    .left2 button{
+        font-size: 3vw;
+        font-weight: 600;
+        padding: 1.2vw 2.3vw;
+    }
+
+    .right2{
+        width: 100%;
+        height:40%;
+    }
+
+
+}
+
+.tbox{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+
+
+.box1 a{
+    text-decoration: none;
+}
+
+
+.box2 a{
+    text-decoration: none;
+}
+
+
+body::-webkit-scrollbar{
+    background-color:#111;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #111;
+    border: 5px solid #90EE8F;
+    border-radius: 20px;
+}
